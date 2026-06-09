@@ -1,17 +1,46 @@
-# my_app
+# Flutter Secrets Demo
 
-A new Flutter project.
+A simple Flutter application that demonstrates how to securely manage configuration values using Dart compile-time environment variables.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Read API keys and configuration values from environment variables.
+  
+- Avoid hardcoding sensitive information in source code.
+  
+- Display configuration values in the app UI.
+  
+- Print configuration values to the console during startup.
 
-A few resources to get you started if this is your first Flutter project:
+## Security Benefits
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Keeps secrets out of source code.
+  
+- Prevents accidental exposure of API keys in Git repositories.
+  
+- Allows different configurations for development, staging, and production environments.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Output
+
+Console:
+
+```text
+API Key: 123456789
+Base URL: https://newsapi.org
+```
+
+App Screen:
+
+```text
+Secrets Demo
+API Key: 123456789
+```
+
+## Technologies Used
+
+- Flutter
+  
+- Dart
+  
+- Material Design
+
