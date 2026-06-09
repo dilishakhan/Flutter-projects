@@ -1,17 +1,83 @@
-# frontend
+# Frontend - Flutter Application
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+The frontend is built using Flutter and provides the user interface for the application. It communicates with backend services through REST APIs and delivers a responsive cross-platform experience.
 
-This project is a starting point for a Flutter application.
+## Technologies
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter
+  
+* Dart
+  
+* Material Design
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Responsive UI
+  
+* Form Validation
+  
+* State Management
+  
+* API Integration
+  
+* Local Data Persistence
+  
+* Cross-Platform Support
+
+
+## Installation
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+## Build
+
+Android APK:
+
+```bash
+flutter build apk
+```
+
+Web Build:
+
+```bash
+flutter build web
+```
+
+## Docker
+
+Build image:
+
+```bash
+docker build -t flutter-frontend .
+```
+
+Run container:
+
+```bash
+docker run -p 8080:8080 flutter-frontend
+```
+
+## Responsibilities
+
+* User Interface
+  
+* User Interaction
+  
+* Input Validation
+  
+* API Communication
+  
+* Data Presentation
+
