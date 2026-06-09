@@ -100,7 +100,5 @@ These projects were built to strengthen understanding of:
 
 
 
-# 📄 License
 
-This repository is intended for educational and portfolio purposes.
 
