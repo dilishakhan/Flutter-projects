@@ -1,4 +1,4 @@
-# Flutter Secrets Demo
+# My_app
 
 A simple Flutter application that demonstrates how to securely manage configuration values using Dart compile-time environment variables.
 
@@ -20,21 +20,6 @@ A simple Flutter application that demonstrates how to securely manage configurat
   
 - Allows different configurations for development, staging, and production environments.
 
-## Output
-
-Console:
-
-```text
-API Key: 123456789
-Base URL: https://newsapi.org
-```
-
-App Screen:
-
-```text
-Secrets Demo
-API Key: 123456789
-```
 
 ## Technologies Used
 
@@ -44,3 +29,20 @@ API Key: 123456789
   
 - Material Design
 
+## Future Scope
+
+- Integrate with real-world APIs using the configured environment variables.
+  
+- Support multiple environments (Development, Staging, Production).
+  
+- Implement secure secret management using CI/CD pipelines.
+  
+- Add API key validation and error handling.
+  
+- Store configuration values using secure storage solutions.
+  
+- Extend the app to support dynamic configuration updates.
+  
+- Implement state management for scalable application architecture.
+  
+- Add unit and integration tests for configuration handling.
