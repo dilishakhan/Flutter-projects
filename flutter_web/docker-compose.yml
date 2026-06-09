@@ -1,0 +1,16 @@
+services:
+  flutter-web:
+    build: .
+    ports:
+      - "8081:80"
+    depends_on:
+      - mock-api
+
+  mock-api:
+    image: node:20
+    working_dir: /app
+    volumes:
+      - ./mock-api:/app
+    command: node server.js
+    ports:
+      - "3000:3000"

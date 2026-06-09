@@ -1,0 +1,13 @@
+{
+  "name": "docker-live-sync",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon -L app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
