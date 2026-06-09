@@ -1,17 +1,106 @@
-# counter_app2
+#  Flutter Basics Projects
 
-A new Flutter project.
+This repository contains two beginner-friendly Flutter applications developed to practice state management, user interaction, and fundamental Flutter concepts.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+# 1️⃣ Counter App
 
-A few resources to get you started if this is your first Flutter project:
+##  Overview
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+A simple Flutter application that allows users to increment and decrement a counter value. This project demonstrates the basics of state management and widget rebuilding in Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Features
+
+* Increment counter value
+  
+* Decrement counter value
+  
+* Real-time UI updates
+  
+* Simple and intuitive interface
+
+##  Technologies Used
+
+* Flutter
+  
+* Dart
+
+##  Concepts Practiced
+
+* Stateful Widgets
+  
+* setState()
+  
+* User Interaction
+  
+* Button Widgets
+  
+* State Management Basics
+
+---
+
+# 2️⃣ To-Do List App
+
+##  Overview
+
+A task management application that allows users to add, view, and remove tasks. The project focuses on handling dynamic lists and updating the UI based on user actions.
+
+##  Features
+
+* Add new tasks
+  
+* Display task list
+  
+* Delete completed or unwanted tasks
+  
+* Dynamic UI updates
+  
+* Simple task management interface
+
+##  Technologies Used
+
+* Flutter
+  
+* Dart
+
+##  Concepts Practiced
+
+* Stateful Widgets
+  
+* ListView
+  
+* TextField
+  
+* Dynamic Data Handling
+  
+* CRUD Operations (Create, Read, Delete)
+  
+* User Input Management
+
+#  Getting Started
+
+#  Learning Outcomes
+
+These projects were built to strengthen understanding of:
+
+* Flutter Widget Tree
+  
+* Stateful Widgets
+  
+* State Management using setState()
+  
+* User Input Handling
+  
+* Dynamic List Management
+  
+* Mobile UI Development
+  
+* Flutter Project Structure
+
+
+
+# 📄 License
+
+This repository is intended for educational and portfolio purposes.
+
