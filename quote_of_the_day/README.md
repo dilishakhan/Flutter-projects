@@ -1,17 +1,64 @@
-# quote_of_the_day
+# Quote of the Day 
 
-A new Flutter project.
+A Flutter application that fetches and displays inspirational quotes from an API. Users can generate a new quote instantly by clicking the **New Quote** button.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Fetches quotes from a REST API
+  
+- Displays a random inspirational quote
+  
+- Generate a new quote with a single click
+  
+- Clean and responsive user interface
+  
+- Real-time data retrieval
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+  
+- Dart
+  
+- REST API
+  
+- HTTP Package
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How It Works
+
+- The app sends a request to a quotes API.
+  
+- A quote is displayed when the application launches.
+  
+- Clicking the **New Quote** button fetches and displays another quote from the API.
+  
+- The UI updates dynamically without restarting the app.
+
+## Key Concepts
+
+- API Integration
+  
+- HTTP Requests
+  
+- JSON Parsing
+  
+- State Management with `setState()`
+  
+- Asynchronous Programming (`async` / `await`)
+
+## Future Scope
+
+- Add quote categories (Motivation, Life, Success, etc.)
+  
+- Save favorite quotes
+  
+- Share quotes on social media
+  
+- Add dark mode support
+  
+- Display quote authors and additional details
+  
+- Cache quotes for offline access
+  
+- Implement daily quote notifications
+
