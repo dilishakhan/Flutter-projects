@@ -143,6 +143,4 @@ This project demonstrates:
 
 ---
 
-## Author
 
-Developed as part of a Capstone Project for academic and learning purposes.
