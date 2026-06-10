@@ -34,37 +34,37 @@ The main goal of this project is to practice and demonstrate Flutter’s built-i
    
 - Android Studio / VS Code  
 
-Debugging Features Demonstrated
+## Debugging Features Demonstrated:
 
-Flutter Inspector
+# Flutter Inspector
 
 Used to:
 
-Explore widget tree
+-Explore widget tree
 
-Identify UI hierarchy
+-Identify UI hierarchy
 
-Debug layout issues
+-Debug layout issues
 
-Layout Debugging
+# Layout Debugging
 
 Enabled via:
 
-debugPaintSizeEnabled
+-debugPaintSizeEnabled
 
-Layout boundaries visualization
+-Layout boundaries visualization
 
-Alignment and constraint checking
+-Alignment and constraint checking
 
-DevTools
+# DevTools
 
 Used for:
 
-Performance profiling
+-Performance profiling
 
-Memory analysis
+-Memory analysis
 
-Widget rebuild tracking
+-Widget rebuild tracking
 
 ## Future Scope
 
