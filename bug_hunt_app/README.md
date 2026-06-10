@@ -1,17 +1,83 @@
-# bug_hunt_app
+#  Bug Hunt App 
 
-A new Flutter project.
+A Flutter application built to explore and demonstrate powerful **Flutter debugging tools** such as Flutter Inspector, DevTools, layout debugging features, and performance visualization tools.
 
-## Getting Started
+This project helps developers understand how to debug UI layouts, inspect widget trees, and optimize Flutter applications effectively.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+##  Purpose of the App
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+The main goal of this project is to practice and demonstrate Flutter’s built-in debugging capabilities, including:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-  Flutter Inspector for widget tree exploration
+  
+-  Layout debugging using debug paint and layout borders
+  
+-  Flutter DevTools integration
+   
+-  Performance monitoring tools
+  
+-  Visualizing widget hierarchy and constraints  
+
+---
+
+##  Tools & Technologies
+
+- Flutter SDK
+   
+- Dart
+  
+- Flutter DevTools
+  
+- Flutter Inspector
+   
+- Android Studio / VS Code  
+
+Debugging Features Demonstrated
+
+Flutter Inspector
+
+Used to:
+
+Explore widget tree
+
+Identify UI hierarchy
+
+Debug layout issues
+
+Layout Debugging
+
+Enabled via:
+
+debugPaintSizeEnabled
+
+Layout boundaries visualization
+
+Alignment and constraint checking
+
+DevTools
+
+Used for:
+
+Performance profiling
+
+Memory analysis
+
+Widget rebuild tracking
+
+## Future Scope
+
+-  Add interactive debugging tutorials for beginners inside the app
+
+-  Expand support for advanced DevTools features like memory profiling and CPU tracing
+  
+-  Add sample buggy UI screens so users can practice identifying and fixing issues
+  
+-  Improve UI with dark/light mode for better developer experience
+  
+-  Add real-time performance metrics dashboard
+  
+-  Integrate guided “debugging mode” that highlights common layout and rendering issues automatically
+  
+-  Add AI-assisted debugging hints for common Flutter errors  
