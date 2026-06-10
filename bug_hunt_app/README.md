@@ -34,9 +34,9 @@ The main goal of this project is to practice and demonstrate Flutter’s built-i
    
 - Android Studio / VS Code  
 
-## Debugging Features Demonstrated:
+# Debugging Features Demonstrated:
 
-# Flutter Inspector
+## Flutter Inspector
 
 Used to:
 
@@ -46,7 +46,7 @@ Used to:
 
 -Debug layout issues
 
-# Layout Debugging
+## Layout Debugging
 
 Enabled via:
 
@@ -56,7 +56,7 @@ Enabled via:
 
 -Alignment and constraint checking
 
-# DevTools
+## DevTools
 
 Used for:
 
